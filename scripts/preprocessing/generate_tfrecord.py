@@ -85,10 +85,10 @@ def xml_to_csv(path):
                      int(root.find('size')[0].text),
                      int(root.find('size')[1].text),
                      member[0].text,
-                     int(member[4][0].text),
-                     int(member[4][1].text),
-                     int(member[4][2].text),
-                     int(member[4][3].text)
+                     int(member[5][0].text),
+                     int(member[5][1].text),
+                     int(member[5][2].text),
+                     int(member[5][3].text)
                      )
             xml_list.append(value)
     column_name = ['filename', 'width', 'height',
@@ -98,7 +98,12 @@ def xml_to_csv(path):
 
 
 def class_text_to_int(row_label):
-    return label_map_dict[row_label]
+    if row_label == 'without_mask':
+        return 1
+    elif row_label == 'with_mask':
+        return 2
+    else:
+        return 0
 
 
 def split(df, group):
