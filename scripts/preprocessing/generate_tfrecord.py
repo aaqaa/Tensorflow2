@@ -98,12 +98,13 @@ def xml_to_csv(path):
 
 
 def class_text_to_int(row_label):
-    if row_label == 'without_mask':
-        return 1
-    elif row_label == 'with_mask':
-        return 2
-    else:
-        return 0
+    return label_map_dict[row_label]
+#     if row_label == 'without_mask':
+#         return 1
+#     elif row_label == 'with_mask':
+#         return 2
+#     else:
+#         return 0
 
 
 def split(df, group):
@@ -158,8 +159,11 @@ def main(_):
     writer = tf.python_io.TFRecordWriter(args.output_path)
     path = os.path.join(args.image_dir)
     examples = xml_to_csv(args.xml_dir)
+
     grouped = split(examples, 'filename')
+
     for group in grouped:
+
         tf_example = create_tf_example(group, path)
         writer.write(tf_example.SerializeToString())
     writer.close()
