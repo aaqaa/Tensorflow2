@@ -151,7 +151,8 @@ def main(_):
   text_format.Merge(FLAGS.config_override, pipeline_config)
   exporter_lib_v2.export_inference_graph(
       FLAGS.input_type, pipeline_config, FLAGS.trained_checkpoint_dir,
-      FLAGS.output_directory)
+      FLAGS.output_directory, FLAGS.use_side_inputs, FLAGS.side_input_shapes,
+      FLAGS.side_input_types, FLAGS.side_input_names)
 
 
 if __name__ == '__main__':
