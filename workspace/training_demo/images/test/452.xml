@@ -1,0 +1,25 @@
+<annotation>
+	<folder>without_mask</folder>
+	<filename>452.jpg</filename>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>236</width>
+		<height>297</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>without_mask</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>27</xmin>
+			<ymin>17</ymin>
+			<xmax>209</xmax>
+			<ymax>229</ymax>
+		</bndbox>
+	</object>
+</annotation>

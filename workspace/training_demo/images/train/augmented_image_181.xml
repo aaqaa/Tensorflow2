@@ -1,0 +1,25 @@
+<annotation>
+	<folder>without_mask</folder>
+	<filename>augmented_image_181.jpg</filename>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>768</width>
+		<height>960</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>without_mask</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>5</xmin>
+			<ymin>5</ymin>
+			<xmax>494</xmax>
+			<ymax>437</ymax>
+		</bndbox>
+	</object>
+</annotation>
