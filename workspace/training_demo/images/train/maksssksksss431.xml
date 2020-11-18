@@ -8,18 +8,6 @@
     </size>
     <segmented>0</segmented>
     <object>
-        <name>mask_weared_incorrect</name>
-        <pose>Unspecified</pose>
-        <truncated>0</truncated>
-        <difficult>0</difficult>
-        <bndbox>
-            <xmin>20</xmin>
-            <ymin>71</ymin>
-            <xmax>76</xmax>
-            <ymax>129</ymax>
-        </bndbox>
-    </object>
-    <object>
         <name>with_mask</name>
         <pose>Unspecified</pose>
         <truncated>0</truncated>

@@ -20,18 +20,6 @@
         </bndbox>
     </object>
     <object>
-        <name>mask_weared_incorrect</name>
-        <pose>Unspecified</pose>
-        <truncated>0</truncated>
-        <difficult>0</difficult>
-        <bndbox>
-            <xmin>366</xmin>
-            <ymin>70</ymin>
-            <xmax>384</xmax>
-            <ymax>92</ymax>
-        </bndbox>
-    </object>
-    <object>
         <name>with_mask</name>
         <pose>Unspecified</pose>
         <truncated>0</truncated>
@@ -64,30 +52,6 @@
             <xmin>29</xmin>
             <ymin>47</ymin>
             <xmax>46</xmax>
-            <ymax>67</ymax>
-        </bndbox>
-    </object>
-    <object>
-        <name>mask_weared_incorrect</name>
-        <pose>Unspecified</pose>
-        <truncated>0</truncated>
-        <difficult>0</difficult>
-        <bndbox>
-            <xmin>37</xmin>
-            <ymin>63</ymin>
-            <xmax>59</xmax>
-            <ymax>88</ymax>
-        </bndbox>
-    </object>
-    <object>
-        <name>mask_weared_incorrect</name>
-        <pose>Unspecified</pose>
-        <truncated>0</truncated>
-        <difficult>0</difficult>
-        <bndbox>
-            <xmin>179</xmin>
-            <ymin>40</ymin>
-            <xmax>205</xmax>
             <ymax>67</ymax>
         </bndbox>
     </object>

@@ -68,18 +68,6 @@
         </bndbox>
     </object>
     <object>
-        <name>mask_weared_incorrect</name>
-        <pose>Unspecified</pose>
-        <truncated>0</truncated>
-        <difficult>0</difficult>
-        <bndbox>
-            <xmin>100</xmin>
-            <ymin>49</ymin>
-            <xmax>113</xmax>
-            <ymax>61</ymax>
-        </bndbox>
-    </object>
-    <object>
         <name>without_mask</name>
         <pose>Unspecified</pose>
         <truncated>0</truncated>
