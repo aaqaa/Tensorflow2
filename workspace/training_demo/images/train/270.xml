@@ -1,25 +1,25 @@
 <annotation>
-	<folder>with_mask</folder>
+	<folder>without_mask</folder>
 	<filename>270.jpg</filename>
 	<source>
 		<database>Unknown</database>
 	</source>
 	<size>
-		<width>112</width>
-		<height>188</height>
+		<width>408</width>
+		<height>432</height>
 		<depth>3</depth>
 	</size>
 	<segmented>0</segmented>
 	<object>
-		<name>with_mask</name>
+		<name>without_mask</name>
 		<pose>Unspecified</pose>
-		<truncated>1</truncated>
+		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>1</xmin>
-			<ymin>1</ymin>
-			<xmax>112</xmax>
-			<ymax>188</ymax>
+			<xmin>32</xmin>
+			<ymin>24</ymin>
+			<xmax>309</xmax>
+			<ymax>335</ymax>
 		</bndbox>
 	</object>
 </annotation>
